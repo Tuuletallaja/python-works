@@ -173,7 +173,7 @@ Sinu võimalused on:
                 print(str("[D]ouble down - Kahekordistad oma panuse ja võtad juurde ühe kaardi. Selles ringis rohkem kaarte juurde ei saa."))
                 choice.append("d")
             if p_hand[0] == p_hand[1]:
-                print(str("[S]plit - Jagad esialgse käe kaheks, saades kaks uut kätt ja panustad mõlema käe kohta algse käe panuse."))
+                print(str("[S]plit - Jagad esialgse käe kaheks, saades kaks uut kätt ja panustad mõlema käe kohta algse käe panuse. EI TÖÖTA"))
                 choice.append("s")
             print(str("[H]it - Võtad ühe kaardi juurde."))
             choice.append("h")
